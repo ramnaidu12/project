@@ -1,10 +1,17 @@
 
 import './App.css';
 
+import Nav from './shared/navbar';
+import { Outlet } from 'react-router-dom';
+
+
 function App() {
   return (
     <div className="App">
-      <h1 style={{color:"red"}}>jasim na heart</h1>
+     
+    
+     <Nav></Nav>
+<Outlet></Outlet>
     </div>
   );
 }
